@@ -9,7 +9,7 @@ Then I wrote this small script to convert it into a Prometheus compatible format
 The output can be put in a Prometheus dropzone.
 
 ## Architecture
-
+```
 ┌──────────────────┐                    ┌───────────────┐                   ┌───────────────┐      ┌────────────┐
 │                  │                    │               │                   │               │      │            │
 │   SAJ inverter   ├────────────────────┤  modbus2prom  ├──────────────────►│ node_exporter │◄─────┤ Prometheus │
@@ -17,3 +17,4 @@ The output can be put in a Prometheus dropzone.
 └──────────────────┘                    └───────────────┘ for               └───────────────┘      └────────────┘
                                                           node_exporter
                                                           to filesystem
+```
