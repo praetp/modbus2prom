@@ -1,0 +1,15 @@
+ [Unit]
+ Description=Modbus to Prometheus exporter
+ After=multi-user.target
+
+[Service]
+Type=idle
+WorkingDirectory=/opt/homestuff/modbus2prom
+ExecStart=/opt/homestuff/modbus2prom/main.sh
+Environment="PATH=/home/spetsnaz/.local/bin:/usr/bin"
+User=spetsnaz
+Restart=always
+RestartSec=2
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,12 @@
+PV1Volt: 1871 0x74f
+PV1Curr: 29 0x1d
+PV1Power: 546 0x222
+PV2Volt: 1792 0x700
+PV2Curr: 35 0x23
+PV2Power: 613 0x265
+InvTempC: 268 0x10c
+Power: 189 0xbd
+Today_Energy: 64 0x40
+Month_Energy: 626 0x272
+Year_Energy: 4468 0x1174
+Total_Energy: 1615491 0x18a683

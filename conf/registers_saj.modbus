@@ -1,0 +1,16 @@
+# see https://github.com/wimb0/home-assistant-saj-modbus/blob/main/saj-plus-series-inverter-modbus-protocal.pdf
+PV1Volt  263
+PV1Curr  264
+PV1Power 265
+PV2Volt  266
+PV2Curr  267
+PV2Power 268
+PV2Power 268
+
+InvTempC 273/h
+Power    275
+
+Today_Energy 300
+Month_Energy 301/I
+Year_Energy  303/I
+Total_Energy 305/I
