@@ -9,7 +9,7 @@ INTERVAL=5
 DESTDIR=/opt/homestuff/node_exporter/prometheus-dropzone
 DESTFILE=${DESTDIR}/modbus.prom
 
-rm ${DESTFILE}
+[ -f ${DESTFILE} ] && rm ${DESTFILE}
 trap "rm ${DESTFILE}" EXIT
 
 TMPFILE=$(mktemp /tmp/modbus_prom.XXXXXXXX)
