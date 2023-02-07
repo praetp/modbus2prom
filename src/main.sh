@@ -2,7 +2,7 @@
 #install modbus first with pip install modbus (https://github.com/favalex/modbus-cli)
 #install gawk 
 
-set -euo pipefail
+set -eu
 shopt -s inherit_errexit
 
 INTERVAL=5
